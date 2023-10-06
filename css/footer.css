@@ -1,0 +1,77 @@
+footer {
+  width: 100%;
+  background-color: #2c2a29;
+  color: white;
+  height: 500px;
+}
+
+footer a {
+  color: white;
+}
+
+/** footer 상단 */
+.category_company {
+  width: 100%;
+  height: 200px;
+}
+
+.cc_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.cc_ul > li > ul {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer_ttl {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/** footer 하단 */
+.copyright_company {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.copyright {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.copyright_a {
+  height: 100px;
+}
+.copyright_a > a {
+  padding: 0px 10px;
+}
+.copyright_a > a:first-child {
+  color: green;
+}
+
+.footerbtn_link {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  width: 90px;
+  height: 30px;
+  margin: 10px 2px 0px 3px;
+  line-height: 30px;
+}
+
+.copyright > ul {
+  margin: 0 auto;
+}
+
+.copyright > ul > li {
+  float: left;
+  margin: 50px 0px 30px 20px;
+  text-align: center;
+  font-size: 13px;
+}
