@@ -1,0 +1,170 @@
+main {
+  width: 100%;
+  height: 100%;
+}
+.whatsnew_mainttl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.whatsnew_mainttl > p {
+  font-size: 30px;
+}
+.whatsnew_mainttl > div > i {
+  font-size: 12px;
+}
+.whatsnew_mainttl > div > a > i {
+  font-size: 12px;
+}
+.whatsnew_see_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7b7c7f;
+  height: 80px;
+  color: white;
+}
+.whatsnew_see_all p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/** 보도자료와 이용안내 css  */
+.release_usewebinfo {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.btn_circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+i {
+  font-size: 25px;
+}
+.release {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100px;
+  background-color: #111111;
+  color: white;
+  font-size: 20px;
+}
+.usewebinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100px;
+  background-color: #0f5e3f;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/** 신제품에 대한 내용 */
+.whatsnew_odd {
+  width: 100%;
+  position: relative;
+}
+.whatsnew_odd_backimg {
+  width: 100%;
+  vertical-align: middle;
+  height: 800px;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0.5) 25%,
+      rgba(255, 255, 255, 0.7) 40%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 1) 75%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url("https://img.freepik.com/premium-photo/man-hands-harvest-coffee-bean-ripe-red-berries-plant-fresh-seed-coffee-tree-growth-in-green-eco-organic-farm-close-up-hands-harvest-red-ripe-coffee-seed-robusta-arabica-berry-harvesting-coffee-farm_10139-1060.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whatsnew_odd > img {
+  width: 50%;
+  vertical-align: middle;
+  height: 800px;
+}
+.whatsnew_odd_txt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 110%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+.whatsnew_odd_txt > p > span {
+  font-weight: 800;
+}
+
+.whatsnew_odd_last {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0px 20px 0px;
+}
+
+.whatsnew_even {
+  width: 100%;
+  position: relative;
+}
+.whatsnew_even > img {
+  display: block;
+  margin-left: auto;
+  width: 50%;
+  height: 800px;
+}
+.whatsnew_even_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  font-size: 40px;
+  text-align: center;
+}
+.whatsnew_even_txt > p > span {
+  font-weight: 800;
+}
+
+.whatsnew_even_last {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0px 20px 0px;
+}
+
+.whatsnew_seemore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+}

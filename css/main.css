@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 img {
-  width: 1900px;
+  width: 100%;
   height: 2500px;
 }
 
@@ -13,7 +13,30 @@ img {
   justify-content: space-evenly;
   text-align: center;
 }
-
+.btn_circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.btn_circle_black {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+i {
+  font-size: 25px;
+}
 .announce {
   display: flex;
   align-items: center;
@@ -35,6 +58,7 @@ img {
   color: black;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /** 리워즈 회원가입과 로그인 e-gift card css */
@@ -45,14 +69,18 @@ img {
   align-items: center;
   width: 100%;
   height: 400px;
+  background-color: #1e3932;
+  color: #fff;
 }
 .rewards_logoinfo {
-  width: 60%;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+.txt_bold {
+  font-weight: 800;
+}
 .rewards_logo {
   width: 20%;
 }
@@ -62,17 +90,67 @@ img {
 .rewards_info_top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
+.rewards_info_top_txt {
+  font-size: 25px;
+}
+
 .rewards_info_top_logsign_btn {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  font-size: 25px;
 }
+.rewards_info_top_sign_up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 45px;
+  background-color: #00704a;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rewards_info_top_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 hr {
   width: 100%;
 }
+
 .rewards_info_down {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
+}
+.rewards_info_down_txt {
+  font-size: 25px;
+}
+.rewards_info_down_gift_btn {
+  font-size: 18px;
+}
+.rewards_info_down_gift_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
 }

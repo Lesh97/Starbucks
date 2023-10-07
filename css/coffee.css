@@ -1,0 +1,122 @@
+main {
+  width: 100%;
+  height: 100%;
+}
+.coffee_mainttl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.coffee_mainttl > p {
+  font-size: 30px;
+}
+.coffee_mainttl > div > i {
+  font-size: 12px;
+}
+.coffee_mainttl > div > a > i {
+  font-size: 12px;
+}
+
+/** 보도자료와 이용안내 css  */
+.release_usewebinfo {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.btn_circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+i {
+  font-size: 25px;
+}
+.release {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 100px;
+  background-color: #111111;
+  color: white;
+  font-size: 20px;
+}
+.usewebinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100px;
+  background-color: #0f5e3f;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/** 커피에 대한 내용 */
+.coffee_odd {
+  width: 100%;
+  position: relative;
+}
+.coffee_odd > img {
+  width: 100%;
+  vertical-align: middle;
+  height: 800px;
+  opacity: 60%;
+}
+.coffee_odd_txt {
+  position: absolute;
+  top: 25%;
+  left: 70%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+.coffee_odd_txt > p > span {
+  font-weight: 800;
+}
+.coffee_odd_second {
+  font-size: 30px;
+}
+.coffee_odd_last {
+  font-size: 20px;
+}
+.coffee_even {
+  width: 100%;
+  position: relative;
+}
+.coffee_even > img {
+  width: 100%;
+  vertical-align: middle;
+  height: 800px;
+  opacity: 50%;
+}
+.coffee_even_txt {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  width: 100%;
+  transform: translate(-50%, 50%);
+  font-size: 40px;
+  text-align: center;
+}
+.coffee_even_txt > p > span {
+  font-weight: 800;
+}
+.coffee_even_second {
+  font-size: 30px;
+}
+.coffee_even_last {
+  font-size: 20px;
+}
