@@ -7,6 +7,7 @@
     <title>스타벅스 만들어보기</title>
     <link rel="stylesheet" href="./css/components/nav.css" />
     <link rel="stylesheet" href="./css/components/footer.css" />
+    <link rel="stylesheet" href="./css/login.css" />
   </head>
   <body>
     <header>
@@ -398,6 +399,62 @@
       </div>
     </header>
     <main>
+      <div class="login_wrap">
+        <div class="login_bgimg"></div>
+        <div class="login_txt">
+          <div class="login_ttl">로그인</div>
+          <div class="login_idpw">
+            <p><span>Welcome!</span> 스타벅스 코리아에 오신 것을 환영합니다.</p>
+            <hr />
+            <div class="login_idpw_input">
+              <input placeholder="아이디를 입력해주세요." />
+              <input placeholder="비밀번호를 입력해주세요." />
+            </div>
+
+            <div class="login_idpw_saveid">
+              <i class="fa-solid fa-circle-check"></i>
+              <div>아이디 저장</div>
+            </div>
+            <div class="login_idpw_btn">로그인</div>
+            <div class="login_idpw_info">
+              <p>
+                <span>
+                  * 타 사이트와 비밀번호를 동일하게 사용할 경우 도요으이 위험이
+                  있으므로, 정기적인 비밀번호 변경을 해주시길 바랍니다.
+                </span>
+              </p>
+              <p>
+                <span>
+                  * 스타벅스 코리아의 공식 홈페이지는 IE 9.0 이상, 크롬,
+                  파이어폭스, 사파리 브라우저에 최적화 되어있습니다.
+                </span>
+              </p>
+            </div>
+
+            <div class="login_idpw_find">
+              <ul>
+                <li><a href="./signin.html">회원가입</a></li>
+
+                <li>아이디 찾기</li>
+
+                <li>비밀번호 찾기</li>
+              </ul>
+            </div>
+          </div>
+          <div class="login_security">
+            <p>아래 이미지의 보안문자를 보이는 대로 입력해주세요.</p>
+            <div class="login_security_randomtxt">
+              <span>보안문자</span>
+              <div class="login_security_random">p3727</div>
+              <div class="login_security_refresh">새로고침</div>
+            </div>
+            <div class="login_security_confirm">
+              <input placeholder="보안코드를 입력하세요." />
+              <div>확인</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer>
         <div class="category_company">
           <ul class="cc_ul">
@@ -462,4 +519,8 @@
       </footer>
     </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/70782ef41a.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
