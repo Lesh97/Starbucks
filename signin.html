@@ -7,6 +7,7 @@
     <title>스타벅스 만들어보기</title>
     <link rel="stylesheet" href="./css/components/nav.css" />
     <link rel="stylesheet" href="./css/components/footer.css" />
+    <link rel="stylesheet" href="./css/signin.css" />
   </head>
   <body>
     <header>
@@ -398,6 +399,78 @@
       </div>
     </header>
     <main>
+      <div class="signin_wrap">
+        <div class="user_info">
+          <span>회원 정보 등록</span>
+          <div id="user_info_wrap">
+            <div>
+              <p>이름</p>
+              <input />
+            </div>
+            <div>
+              <p>나이</p>
+              <select>
+                <option>출생 연도</option>
+              </select>
+              <select>
+                <option>월</option>
+              </select>
+              <select>
+                <option>일</option>
+              </select>
+            </div>
+            <div>
+              <p>아이디</p>
+              <input />
+            </div>
+            <div>
+              <p>비밀번호</p>
+              <input />
+            </div>
+            <div>
+              <p>비밀번호 확인</p>
+              <input />
+            </div>
+            <div id="user_info_email">
+              <p>이메일</p>
+              <input />
+              @
+              <input />
+              <select>
+                <option value="naver.com">naver.com</option>
+                <option value="google.com">google.com</option>
+                <option value="hanmail.net">hanmail.net</option>
+                <option value="nate.com">nate.com</option>
+                <option value="kakao.com">kakao.com</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="user_cardinfo">
+          <span>카드 정보 등록</span>
+          <div>
+            <p>카드사 선택</p>
+            <select>
+              <option value="KB국민">KB국민</option>
+              <option value="BC">BC</option>
+              <option value="카카오">카카오</option>
+              <option value="신한">신한</option>
+              <option value="삼성">삼성</option>
+              <option value="NH농협">NH농협</option>
+              <option value="우리">우리</option>
+              <option value="기업">기업</option>
+            </select>
+          </div>
+          <div id="user_cardinfo_number">
+            <p>카드 번호 등록</p>
+            <div>
+              <input />ㅡ <input />ㅡ <input />ㅡ
+              <input />
+            </div>
+          </div>
+          <div id="signin_btn">회원가입 하기</div>
+        </div>
+      </div>
       <footer>
         <div class="category_company">
           <ul class="cc_ul">
