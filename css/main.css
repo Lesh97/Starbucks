@@ -8,7 +8,15 @@ img {
 }
 
 /** 공지사항과 프로모션 css  */
+.announce_promotion_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+}
 .announce_promotion {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -101,6 +109,9 @@ i {
   justify-content: center;
   align-items: flex-end;
   font-size: 25px;
+}
+.rewards_info_top_logsign_btn a {
+  color: white;
 }
 .rewards_info_top_sign_up {
   display: flex;
