@@ -1,26 +1,26 @@
-/** 프로모션 버튼누르면 상품 나오게 하기 */
-window.onload = function () {
-  const promotionBtn = document.querySelector(".promotion");
-  const promotionDropdown = document.querySelector(".promotion_dropdown");
-  /** 이벤트 리스너 연결 */
-  promotionBtn.addEventListener("click", showPromotion);
-  console.log(promotionBtn);
-  function showPromotion(event) {
-    //화면 새로고침 방지
-    event.preventDefault();
-    if (promotionBtn.id === "hide") {
-      promotionDropdown.removeAttribute("hidden");
-    } else {
-      promotionDropdown.setAttribute("hidden");
-    }
-  }
-};
-
 window.onload = function () {
   const promotionDropdown = document.querySelector(".promotion_dropdown");
   const slider = promotionDropdown.querySelector(".pd_slider");
   const sliderLis = slider.querySelectorAll(".pd_slider_li");
   const moveBtn = promotionDropdown.querySelector(".pd_arrow");
+
+  // const promotionBtn = document.querySelector(".promotion");
+  //     /** 프로모션 버튼누르면 상품 나오게 하기 */
+  //     /** 이벤트 리스너 연결 */
+  //     promotionBtn.addEventListener("click", showPromotion);
+  //     function showPromotion(event) {
+  //       //화면 새로고침 방지
+  //       event.preventDefault();
+  //       if (promotionBtn.id === "hide") {
+  //         promotionDropdown.removeAttribute("hidden");
+  //         promotionBtn.removeAttribute("id");
+  //         promotionDropdown.removeAttribute("width");
+  //       } else {
+  //         promotionDropdown.setAttribute("hidden", true);
+  //         promotionDropdown.removeAttribute("width");
+  //         promotionBtn.id = "hide";
+  //       }
+  //     }
 
   /** ul 넓이 계산 */
   const liWidth = sliderLis[0].clientWidth;

@@ -86,15 +86,16 @@ i {
   margin-bottom: 20px;
   position: relative;
 }
+.pd_slider_wrap {
+  max-height: 670px;
+}
+
 .promotion_dropdown > .pd_slider_wrap {
   overflow: hidden;
 }
 .promotion_dropdown > .pd_slider_wrap .pd_slider {
   position: relative;
   transition: 0.5s;
-}
-.promotion_dropdown > .pd_slider_wrap > .pd_slider > .pd_slider_li {
-  float: left;
 }
 
 .pd_slider_ttl {
@@ -105,6 +106,7 @@ i {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  float: left;
 }
 .pd_slider_li p {
   font-size: 12px;
