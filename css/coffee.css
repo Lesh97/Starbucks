@@ -18,6 +18,79 @@ main {
   font-size: 12px;
 }
 
+.coffee_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/** 커피페이지 슬라이드 */
+.coffee_slider img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+.coffee_container {
+  width: 100%;
+  height: 100%;
+  max-width: 626px;
+  max-height: 670px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.coffee_slider_wrap {
+  max-height: 670px;
+}
+
+.promotion_dropdown > .coffee_slider_wrap {
+  overflow: hidden;
+}
+.promotion_dropdown > .coffee_slider_wrap .coffee_slider {
+  position: relative;
+  transition: 0.5s;
+}
+
+.coffee_slider_ttl {
+  font-weight: 800;
+}
+.coffee_slider_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+}
+.coffee_slider_li p {
+  font-size: 12px;
+}
+.coffee_slider_seemore {
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coffee_container > .coffee_arrow a.prev {
+  position: absolute;
+  left: -50px;
+  top: 200px;
+}
+
+.coffee_container > .coffee_arrow a.next {
+  position: absolute;
+  right: -50px;
+  top: 200px;
+}
+
 /** 보도자료와 이용안내 css  */
 .release_usewebinfo {
   display: flex;

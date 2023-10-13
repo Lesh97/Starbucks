@@ -86,8 +86,10 @@ i {
   margin-bottom: 20px;
   position: relative;
 }
-.pd_slider_wrap {
-  max-height: 670px;
+.promotion_dropdown::after {
+  content: "";
+  display: block;
+  clear: left;
 }
 
 .promotion_dropdown > .pd_slider_wrap {
@@ -101,6 +103,7 @@ i {
 .pd_slider_ttl {
   font-weight: 800;
 }
+
 .pd_slider_li {
   display: flex;
   align-items: center;
