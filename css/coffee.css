@@ -47,10 +47,10 @@ main {
   max-height: 670px;
 }
 
-.promotion_dropdown > .coffee_slider_wrap {
+.coffee_container > .coffee_slider_wrap {
   overflow: hidden;
 }
-.promotion_dropdown > .coffee_slider_wrap .coffee_slider {
+.coffee_container > .coffee_slider_wrap .coffee_slider {
   position: relative;
   transition: 0.5s;
 }
@@ -96,6 +96,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  width: 100%;
 }
 .btn_circle {
   width: 50px;
