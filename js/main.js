@@ -13,6 +13,7 @@ window.onload = function () {
   function showPromotion(event) {
     //화면 새로고침 방지
     event.preventDefault();
+
     if (promotionBtn.id === "hide") {
       dropdownController.hidden = false;
       promotionBtn.removeAttribute("id");

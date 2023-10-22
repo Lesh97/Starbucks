@@ -15,7 +15,7 @@ main {
 .login_bgimg {
   width: 100%;
   vertical-align: middle;
-  height: 100vh;
+  height: 150vh;
   background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 10%,
@@ -40,7 +40,7 @@ main {
   position: absolute;
   top: 0px;
   left: 50%;
-  width: 25%;
+  width: 35%;
   transform: translate(-50%, 5%);
   font-size: 40px;
   text-align: center;
