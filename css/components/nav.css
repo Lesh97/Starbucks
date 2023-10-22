@@ -52,45 +52,109 @@ main {
 /***********  네비게이션 상단 부분 끝 top_nav */
 
 /*********** 네비게이션 하단 부분 시작 down_nav */
-
-.down_nav {
-  width: 100%;
-  height: 100%;
-}
-
-/** 네비게이션 바 ul 가로 */
-.nb_sub_inner > ul {
-  float: left;
-}
-
-/** 네비게이션 바 li 가로 */
-.down_nav > ul > li {
-  float: left;
-}
-ul > .down_nav_category {
-  width: 33%;
-  text-align: center;
-  line-height: 40px;
-}
-
-.nb_sub {
-  display: none;
-  height: 0;
-  top: 66px;
-  position: absolute;
-  width: 100%;
-}
-.nb_sub a {
-  display: block;
-  text-align: center;
-}
-.nb_sub_inner {
-  width: 1100px;
+.drop_nav {
+  display: inline-block;
   position: relative;
+  cursor: default;
+  z-index: 500;
+  width: 90%;
 }
 
-.down_nav_category:hover .nb_sub {
+.drop_nav > li {
   display: block;
+  float: left;
+  width: 33%;
 }
 
+.drop_nav > li > a {
+  position: relative;
+  display: block;
+  z-index: 510;
+  height: 54px;
+  padding: 0 20px;
+  line-height: 54px;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fcfcfc;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+
+  background: #372f2b;
+  border-left: 1px solid #4b4441;
+  border-right: 1px solid #312a27;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.drop_nav > li:hover > a {
+  background: #4b4441;
+}
+
+.drop_nav > li:first-child > a {
+  border-radius: 3px 0 0 3px;
+  border-left: none;
+}
+.drop_nav > li > div {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+
+  background: #ffffff;
+  border-radius: 0 0 3px 3px;
+
+  -webkit-transition: all 0.3s ease 0.15s;
+  -moz-transition: all 0.3s ease 0.15s;
+  -o-transition: all 0.3s ease 0.15s;
+  -ms-transition: all 0.3s ease 0.15s;
+  transition: all 0.3s ease 0.15s;
+}
+.drop_nav > li:hover > div {
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
+}
+
+.drop_nav .nav-column {
+  float: left;
+  width: 20%;
+  padding: 2.5%;
+}
+
+.drop_nav .nav-column h3 {
+  margin: 20px 0 10px 0;
+  line-height: 18px;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #372f2b;
+  text-transform: uppercase;
+}
+
+.drop_nav .nav-column h3.orange {
+  color: #ff722b;
+}
+
+.drop_nav .nav-column li a {
+  display: block;
+  line-height: 26px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #888888;
+}
+
+.drop_nav .nav-column li a:hover {
+  color: #666666;
+}
 /***********  네비게이션 하단 부분 끝 down_nav */
