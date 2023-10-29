@@ -39,32 +39,21 @@ window.onload = function () {
   function moveSlider(event) {
     //화면 새로고침 방지
     event.preventDefault();
-    console.log(translate);
+
     //next 버튼 눌렀을 때
     if (event.target.className === "fa-solid fa-chevron-right") {
       if (currentIdx !== sliderLis.length - 1) {
-        console.log(translate);
-        console.log(liWidth);
         translate -= liWidth;
-        console.log(translate);
         slider.style.transform = `translateX(${translate}px)`;
-        console.log(slider.style.trasform);
         currentIdx += 1;
-        console.log(currentIdx);
       }
     }
     // prev 버튼 눌렀을 때
     else if (event.target.className === "fa-solid fa-chevron-left") {
       if (currentIdx !== 0) {
-        console.log(translate);
-        console.log(liWidth);
         translate += liWidth;
-        console.log(translate);
-        console.log(liWidth);
         slider.style.transform = `translateX(${translate}px)`;
-        console.log(slider.style.trasform);
         currentIdx -= 1;
-        console.log(currentIdx);
       }
     }
   }

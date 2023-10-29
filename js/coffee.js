@@ -21,9 +21,7 @@ window.onload = function () {
     if (event.target.className === "fa-solid fa-chevron-right") {
       if (currentIdx !== sliderLis.length - 1) {
         translate -= liWidth;
-
         slider.style.transform = `translateX(${translate}px)`;
-
         currentIdx += 1;
       }
     }
@@ -31,9 +29,7 @@ window.onload = function () {
     else if (event.target.className === "fa-solid fa-chevron-left") {
       if (currentIdx !== 0) {
         translate += liWidth;
-
         slider.style.transform = `translateX(${translate}px)`;
-
         currentIdx -= 1;
       }
     }

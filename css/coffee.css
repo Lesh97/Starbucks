@@ -30,7 +30,6 @@ main {
   width: 100%;
   height: 100%;
   vertical-align: top;
-  object-fit: cover;
 }
 
 .coffee_container {
@@ -43,8 +42,11 @@ main {
   margin-bottom: 20px;
   position: relative;
 }
-.coffee_slider_wrap {
-  max-height: 670px;
+
+.coffee_container::after {
+  content: "";
+  display: block;
+  clear: left;
 }
 
 .coffee_container > .coffee_slider_wrap {
