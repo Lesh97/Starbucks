@@ -1,13 +1,15 @@
 import express from "express";
+import path from "path";
 
+const __dirname = path.resolve();
 const app = express();
 const port = 8080;
 
-app.use(express.static("html"));
+app.use(express.static(__dirname));
 app.get("/", (req, res) => {
-  res.send("Hello Node.js!");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.listen(port, () => {
-  console.log("Listening...");
+  console.log(`✅ Server listening on port http://localhost:${port}`);
 });

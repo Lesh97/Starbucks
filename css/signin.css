@@ -7,9 +7,32 @@ main {
   flex-direction: column;
 }
 
+.signin_wrap {
+  width: 100%;
+  position: relative;
+}
+
+.signin_bgimg {
+  width: 100%;
+  vertical-align: middle;
+  height: 150vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 10%,
+      rgba(255, 255, 255, 0.2) 25%,
+      rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.3) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("https://png.pngtree.com/background/20231016/original/pngtree-d-rendering-of-a-cozy-cafe-or-restaurant-with-work-friendly-picture-image_5573201.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .user_info {
   width: 100%;
-  height: 700px;
+  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,14 +40,46 @@ main {
   border: 1px solid brown;
   box-shadow: 5px 5px 5px;
   margin: 50px 0px 50px 0px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 35%;
+  transform: translate(-50%, 5%);
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.user_info > span {
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 #user_info_wrap input {
   width: 100%;
   height: 30px;
+  margin-bottom: 30px;
 }
+
+#user_info_wrap select {
+  width: 200px;
+  padding: 0.8em 0.5em;
+  border: 1px solid #999;
+  font-family: inherit;
+  background: url("arrow.jpg") no-repeat 95% 50%;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 30px;
+}
+
+#user_info_wrap select::-ms-expand {
+  display: none;
+}
+
 #user_info_email input {
-  width: 40%;
+  width: 29%;
 }
 p {
   font-size: 12px;
@@ -33,7 +88,7 @@ p {
 
 .user_cardinfo {
   width: 100%;
-  height: 300px;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,6 +96,15 @@ p {
   border: 1px solid brown;
   box-shadow: 5px 5px 5px;
   margin: 0px 0px 50px 0px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 35%;
+  transform: translate(-50%, 5%);
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  background-color: white;
 }
 #user_cardinfo_number {
   display: flex;

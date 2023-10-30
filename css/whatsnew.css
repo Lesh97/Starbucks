@@ -79,23 +79,6 @@ i {
   width: 100%;
   position: relative;
 }
-.whatsnew_odd_backimg {
-  width: 100%;
-  vertical-align: middle;
-  height: 800px;
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0) 10%,
-      rgba(255, 255, 255, 0.5) 25%,
-      rgba(255, 255, 255, 0.7) 40%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(255, 255, 255, 1) 75%,
-      rgba(255, 255, 255, 1) 100%
-    ),
-    url("https://img.freepik.com/premium-photo/man-hands-harvest-coffee-bean-ripe-red-berries-plant-fresh-seed-coffee-tree-growth-in-green-eco-organic-farm-close-up-hands-harvest-red-ripe-coffee-seed-robusta-arabica-berry-harvesting-coffee-farm_10139-1060.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .whatsnew_odd > img {
   width: 50%;
   vertical-align: middle;

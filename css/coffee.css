@@ -152,11 +152,11 @@ i {
 .coffee_odd_txt {
   position: absolute;
   top: 25%;
-  left: 70%;
+  left: 110%;
   width: 100%;
   transform: translate(-50%, 50%);
   font-size: 40px;
-  text-align: center;
+  text-align: left;
   color: black;
 }
 .coffee_odd_txt > p > span {
@@ -164,6 +164,8 @@ i {
 }
 .coffee_odd_second {
   font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .coffee_odd_last {
   font-size: 20px;
@@ -181,17 +183,19 @@ i {
 .coffee_even_txt {
   position: absolute;
   top: 25%;
-  left: 30%;
+  left: 65%;
   width: 100%;
   transform: translate(-50%, 50%);
   font-size: 40px;
-  text-align: center;
+  text-align: left;
 }
 .coffee_even_txt > p > span {
   font-weight: 800;
 }
 .coffee_even_second {
   font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .coffee_even_last {
   font-size: 20px;

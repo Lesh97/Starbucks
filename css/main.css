@@ -154,6 +154,10 @@ i {
   align-items: center;
   justify-content: center;
 }
+.rewards_logo > img {
+  width: 200px;
+  height: 200px;
+}
 .txt_bold {
   font-weight: 800;
 }
@@ -167,9 +171,10 @@ i {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  text-align: left;
 }
 .rewards_info_top_txt {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .rewards_info_top_logsign_btn {
@@ -215,9 +220,10 @@ hr {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  text-align: left;
 }
 .rewards_info_down_txt {
-  font-size: 25px;
+  font-size: 24px;
 }
 .rewards_info_down_gift_btn {
   font-size: 18px;
